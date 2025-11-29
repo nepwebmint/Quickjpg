@@ -804,42 +804,11 @@
             transform: translateY(-2px);
             box-shadow: 0 4px 10px var(--shadow);
         }
-        /* Bottom Ad Container */
-.bottom-ad-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 12px 0;
-    background: linear-gradient(90deg, #f7f9fc, #eef2f7);
-    border-top: 1px solid #d6dde5;
-    margin-top: 20px;
-}
-
-/* Responsive iframe */
-.bottom-ad-wrapper iframe {
-    max-width: 100%;
-    height: auto;
-}
-        /* Top Ad Container */
-.top-ad-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    background: linear-gradient(90deg, #f5f7fa, #eaeef3); /* light clean gradient */
-    border-bottom: 1px solid #d5dce3;
-}
-
-/* Make ad iframe responsive */
-.top-ad-wrapper iframe {
-    max-width: 100%;
-    height: auto;
-}
     </style>
 </head>
 <body>
-    <!-- Top Horizontal Ad -->
-<div class="top-ad-wrapper">
+    <!-- Top Horizontal Ad (No Space) -->
+<div style="width:100%; display:flex; justify-content:center;">
     <script type="text/javascript">
         atOptions = {
             'key' : '7493c349b290e98b408ab410adf5f230',
@@ -1818,8 +1787,8 @@
             }
         });
     </script>
-    <!-- Bottom Horizontal Ad -->
-<div class="bottom-ad-wrapper">
+    <!-- Bottom Horizontal Ad (No Space) -->
+<div style="width:100%; display:flex; justify-content:center;">
     <script type="text/javascript">
         atOptions = {
             'key' : 'c8641d20e127c62520a09091e831d469',
